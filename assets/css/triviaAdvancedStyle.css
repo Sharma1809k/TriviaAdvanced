@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+.content {
+    background-color:rgb(239, 238, 245);
+    width: 900px;
+    text-align: center;
+    overflow: auto;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+    margin-bottom: 100px;
+    border: 2px solid rgb(107, 2, 60);
+}
+h1 {
+    color:  rgb(19, 50, 226);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+    letter-spacing: -2px;
+    margin-bottom: 0px;
+  
+}
+.btn  {
+    background:    rgb(107, 2, 60);;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    border: 2px solid rgb(209, 7, 118);
+    color: #fff;
+    width: 150px;
+}
+
+p {
+    text-align: center;
+    background:    rgb(107, 2, 60);
+    margin-left: 320px;
+  margin-top: 5px;
+  margin-bottom: 2.5px;
+    border: 2px solid rgb(209, 7, 118);
+    color: #fff;
+    width: 200px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: none;
+
+    
+}
+
+
+#question {
+  display: none;
+    color:rgb(19, 50, 226);
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px
+}
+
+.timer {
+    font-size: 50px;
+    font-weight: 600;
+    color:  rgb(107, 2, 60);
+    margin-bottom: 40px;
+
+}
+#time{
+    color: rgb(107, 2, 60);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    
+    
+
+}
+#correct , #incorrect , #unanswered , #total  {
+    color:  rgb(19, 50, 226);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    
+}
