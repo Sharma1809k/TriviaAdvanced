@@ -88,6 +88,7 @@ $(document).ready(function () {
                 $("#correct").text("Correct :" + correct);
                 $("#incorrect").text("Incorrect :" + incorrect);
                 $("#unanswered").text("Unanswered :" + unanswered);
+                $("#total").text(" Total Questions :" + questions.length);
                 function stop() {
                     clearInterval(intervalId);
                 }
